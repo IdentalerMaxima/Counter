@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 2px;
+    color: white;
+}
+
+main{
+    background-color: rgb(29, 72, 107);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#number{
+    display: flex;
+    justify-content: center;
+    font-size: 130px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button-container button{
+    margin: 10px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: rgba(10, 40, 67, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "Montserrat";
+}
+
+.button-container button:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
